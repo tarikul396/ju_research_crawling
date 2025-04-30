@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 import requests
+from .models import Teacher
 
 def author_search(request):
   papers = []
